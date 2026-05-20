@@ -38,8 +38,9 @@ public class Main {
 
             }
 
-            // Closing input stream.
+            // Closing input and output streams.
             in.close();
+            out.close();
 
         } catch (Exception e) {
 
